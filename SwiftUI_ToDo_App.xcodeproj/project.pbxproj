@@ -11,6 +11,9 @@
 		915FB521276FD01300CAC2E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915FB520276FD01300CAC2E4 /* ContentView.swift */; };
 		915FB523276FD01400CAC2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915FB522276FD01400CAC2E4 /* Assets.xcassets */; };
 		915FB526276FD01400CAC2E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915FB525276FD01400CAC2E4 /* Preview Assets.xcassets */; };
+		915FB52D276FD69300CAC2E4 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915FB52C276FD69300CAC2E4 /* TasksView.swift */; };
+		915FB531276FD87500CAC2E4 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915FB530276FD87500CAC2E4 /* TaskRow.swift */; };
+		915FB533276FD92400CAC2E4 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915FB532276FD92400CAC2E4 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		915FB520276FD01300CAC2E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		915FB522276FD01400CAC2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		915FB525276FD01400CAC2E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		915FB52C276FD69300CAC2E4 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		915FB530276FD87500CAC2E4 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		915FB532276FD92400CAC2E4 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,9 @@
 		915FB51D276FD01300CAC2E4 /* SwiftUI_ToDo_App */ = {
 			isa = PBXGroup;
 			children = (
+				915FB52F276FD85B00CAC2E4 /* Components */,
+				915FB52E276FD6A200CAC2E4 /* Views */,
 				915FB51E276FD01300CAC2E4 /* SwiftUI_ToDo_AppApp.swift */,
-				915FB520276FD01300CAC2E4 /* ContentView.swift */,
 				915FB522276FD01400CAC2E4 /* Assets.xcassets */,
 				915FB524276FD01400CAC2E4 /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				915FB525276FD01400CAC2E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		915FB52E276FD6A200CAC2E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				915FB520276FD01300CAC2E4 /* ContentView.swift */,
+				915FB52C276FD69300CAC2E4 /* TasksView.swift */,
+				915FB532276FD92400CAC2E4 /* AddTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		915FB52F276FD85B00CAC2E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				915FB530276FD87500CAC2E4 /* TaskRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				915FB521276FD01300CAC2E4 /* ContentView.swift in Sources */,
+				915FB533276FD92400CAC2E4 /* AddTaskView.swift in Sources */,
+				915FB52D276FD69300CAC2E4 /* TasksView.swift in Sources */,
 				915FB51F276FD01300CAC2E4 /* SwiftUI_ToDo_AppApp.swift in Sources */,
+				915FB531276FD87500CAC2E4 /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
